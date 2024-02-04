@@ -9,9 +9,9 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - pytorch-cuda=12.1
-  - cuda-toolkit=12.1
-  - huggingface-hub
+  - pytorch-cuda
+  - cuda-toolkit
+  - huggingface_hub
   - matplotlib
   - psutil
   - iopath
@@ -23,8 +23,7 @@ dependencies:
   - timm
   - webdataset
   - omegaconf
-  - opencv-python
-  - decord
+  - opencv
   - peft
   - sentence-transformers
   - gradio
@@ -33,3 +32,7 @@ dependencies:
   - scikit-image
   - visual-genome
   - wandb
+  - pip
+  - pip:
+    - decord
+    - visual-genome
