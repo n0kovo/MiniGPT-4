@@ -1,16 +1,16 @@
 name: minigptv
 channels:
-  - pytorch-nightly
   - nvidia
+  - pytorch-nightly
+  - conda-forge  
   - defaults
-  - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.10
   - pytorch
   - torchvision
   - torchaudio
-  - cudatoolkit=12.2
-  - pytorch-cuda=12.2
+  - pytorch-cuda=12.1
+  - cuda-toolkit=12.1
   - pip
   - pip:
     - huggingface-hub==0.18.0
